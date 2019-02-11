@@ -1,0 +1,108 @@
+COVERGROUP COVERAGE:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status                Persistent Memory   Transient Memory     Peak Transient    PeakTransMemory 
+                                                                                                                                                Memory              Time  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /alu_tb/alu_cg                                    69.0%        100    Uncovered                        10.7KB              1.9KB              3.9KB               0 ns 
+    covered/total bins:                                    25         56                                  10.7KB              1.9KB              3.9KB               0 ns 
+    missing/total bins:                                    31         56                                  10.7KB              1.9KB              3.9KB               0 ns 
+    % Hit:                                              44.6%        100                                  10.7KB              1.9KB              3.9KB               0 ns 
+    Coverpoint alu_cg::opc                              87.5%        100    Uncovered                          528B               656B              2.2KB           10000 ns 
+        covered/total bins:                                 7          8                                      na                 na                 na                 na 
+        missing/total bins:                                 1          8                                      na                 na                 na                 na 
+        % Hit:                                          87.5%        100                                      na                 na                 na                 na 
+    Coverpoint alu_cg::ac                               66.6%        100    Uncovered                          992B              1.3KB              1.3KB              10 ns 
+        covered/total bins:                                 4          6                                      na                 na                 na                 na 
+        missing/total bins:                                 2          6                                      na                 na                 na                 na 
+        % Hit:                                          66.6%        100                                      na                 na                 na                 na 
+    Coverpoint alu_cg::bc                              100.0%        100    Covered                            992B              1.2KB              1.2KB              10 ns 
+        covered/total bins:                                 6          6                                      na                 na                 na                 na 
+        missing/total bins:                                 0          6                                      na                 na                 na                 na 
+        % Hit:                                         100.0%        100                                      na                 na                 na                 na 
+    Cross alu_cg::abc                                   22.2%        100    Uncovered                         6.5KB               336B               640B           10000 ns 
+        covered/total bins:                                 8         36                                      na                 na                 na                 na 
+        missing/total bins:                                28         36                                      na                 na                 na                 na 
+        % Hit:                                          22.2%        100                                      na                 na                 na                 na 
+ Covergroup instance \/alu_tb/alu_cg_Inst               69.0%        100    Uncovered                        10.7KB              1.9KB              3.9KB               0 ns 
+    covered/total bins:                                    25         56                                  10.7KB              1.9KB              3.9KB               0 ns 
+    missing/total bins:                                    31         56                                  10.7KB              1.9KB              3.9KB               0 ns 
+    % Hit:                                              44.6%        100                                  10.7KB              1.9KB              3.9KB               0 ns 
+    Coverpoint opc                                      87.5%        100    Uncovered                          528B               656B              2.2KB           10000 ns 
+        covered/total bins:                                 7          8                                      na                 na                 na                 na 
+        missing/total bins:                                 1          8                                      na                 na                 na                 na 
+        % Hit:                                          87.5%        100                                      na                 na                 na                 na 
+        bin valid_states[0]                               132          1    Covered                              na                 na                 na                 na 
+        bin valid_states[1]                               148          1    Covered                              na                 na                 na                 na 
+        bin valid_states[2]                               158          1    Covered                              na                 na                 na                 na 
+        bin valid_states[3]                               156          1    Covered                              na                 na                 na                 na 
+        bin valid_states[4]                               162          1    Covered                              na                 na                 na                 na 
+        bin valid_states[5]                               116          1    Covered                              na                 na                 na                 na 
+        bin valid_states[6]                               128          1    Covered                              na                 na                 na                 na 
+        bin valid_states[7]                                 0          1    ZERO                                 na                 na                 na                 na 
+    Coverpoint ac                                       66.6%        100    Uncovered                          992B              1.3KB              1.3KB              10 ns 
+        covered/total bins:                                 4          6                                      na                 na                 na                 na 
+        missing/total bins:                                 2          6                                      na                 na                 na                 na 
+        % Hit:                                          66.6%        100                                      na                 na                 na                 na 
+        bin bin_zero                                        8          1    Covered                              na                 na                 na                 na 
+        bin bin_small                                     412          1    Covered                              na                 na                 na                 na 
+        bin bin_hunds[0]                                    8          1    Covered                              na                 na                 na                 na 
+        bin bin_hunds[1]                                    0          1    ZERO                                 na                 na                 na                 na 
+        bin bin_hunds[2]                                    8          1    Covered                              na                 na                 na                 na 
+        bin bin_large                                       0          1    ZERO                                 na                 na                 na                 na 
+        default bin bin_others                            572               Occurred                             na                 na                 na                 na 
+    Coverpoint bc                                      100.0%        100    Covered                            992B              1.2KB              1.2KB              10 ns 
+        covered/total bins:                                 6          6                                      na                 na                 na                 na 
+        missing/total bins:                                 0          6                                      na                 na                 na                 na 
+        % Hit:                                         100.0%        100                                      na                 na                 na                 na 
+        bin bin_zero                                        4          1    Covered                              na                 na                 na                 na 
+        bin bin_small                                     200          1    Covered                              na                 na                 na                 na 
+        bin bin_hunds[0]                                    2          1    Covered                              na                 na                 na                 na 
+        bin bin_hunds[1]                                    2          1    Covered                              na                 na                 na                 na 
+        bin bin_hunds[2]                                    4          1    Covered                              na                 na                 na                 na 
+        bin bin_large                                     214          1    Covered                              na                 na                 na                 na 
+        default bin bin_others                            580               Occurred                             na                 na                 na                 na 
+    Cross abc                                           22.2%        100    Uncovered                         6.5KB               336B               640B           10000 ns 
+        covered/total bins:                                 8         36                                      na                 na                 na                 na 
+        missing/total bins:                                28         36                                      na                 na                 na                 na 
+        % Hit:                                          22.2%        100                                      na                 na                 na                 na 
+        bin <bin_zero,bin_zero>                             2          1    Covered                              na                 na                 na                 na 
+        bin <bin_small,bin_small>                          88          1    Covered                              na                 na                 na                 na 
+        bin <bin_hunds[0],bin_small>                        4          1    Covered                              na                 na                 na                 na 
+        bin <bin_hunds[2],bin_small>                        4          1    Covered                              na                 na                 na                 na 
+        bin <bin_small,bin_hunds[0]>                        2          1    Covered                              na                 na                 na                 na 
+        bin <bin_small,bin_hunds[2]>                        2          1    Covered                              na                 na                 na                 na 
+        bin <bin_zero,bin_large>                            2          1    Covered                              na                 na                 na                 na 
+        bin <bin_small,bin_large>                          76          1    Covered                              na                 na                 na                 na 
+        bin <bin_small,bin_zero>                            0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[0],bin_zero>                         0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[1],bin_zero>                         0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[2],bin_zero>                         0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_large,bin_zero>                            0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_zero,bin_small>                            0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[1],bin_small>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_large,bin_small>                           0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_zero,bin_hunds[0]>                         0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[0],bin_hunds[0]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[1],bin_hunds[0]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[2],bin_hunds[0]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_large,bin_hunds[0]>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_zero,bin_hunds[1]>                         0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_small,bin_hunds[1]>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[0],bin_hunds[1]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[1],bin_hunds[1]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[2],bin_hunds[1]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_large,bin_hunds[1]>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_zero,bin_hunds[2]>                         0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[0],bin_hunds[2]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[1],bin_hunds[2]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[2],bin_hunds[2]>                     0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_large,bin_hunds[2]>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[0],bin_large>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[1],bin_large>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_hunds[2],bin_large>                        0          1    ZERO                                 na                 na                 na                 na 
+        bin <bin_large,bin_large>                           0          1    ZERO                                 na                 na                 na                 na 
+
+TOTAL COVERGROUP COVERAGE: 69.0%  COVERGROUP TYPES: 1
+COVERGROUP MEMORY USAGE: Total 41.7KB, Peak 41.7KB at time 10000 ns for total 4 coverpoints/crosses.
+CONSTRAINT SOLVER MEMORY USAGE: Total 421.4KB,Peak 421.5KB at time 2160 ns for total 500 randomize() calls.
+CLASS OBJECTS MEMORY USAGE: Total Memory 101.9KB and Peak Memory 101.9KB used at time 10000 ns for total 500 class objects.
